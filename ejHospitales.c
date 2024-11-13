@@ -112,7 +112,8 @@ void modificarPaciente(int id, int numPacientes)
                 diagnosticosPacientes[i][strcsp(diagnosticosPacientes[i],"\n")]=0);
                 break;
             case 4:
-                printf("Saliendo...\n") break;
+                printf("Saliendo...\n");
+                break;
             default:
                 printf("Ingrese una opcion valida.");
                 break;
